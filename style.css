@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px;
+  color: white;
+}
+.company-name{
+  font-size: 50px;
+  margin-left: 60px;
+}
+.menu-items{
+  display: flex;
+  margin-right: 60px;
+}
+.menu-items li{
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.menu-items li:hover{
+  color: blue;
+  cursor: pointer;
+}
+.banner-container{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.banner-description{
+  margin-left: 50px;
+}
+.banner-text{
+  color: orangered;
+  font-size: 20px;
+  margin: 10px;
+}
+.title-1{
+  font-size: 60px;
+  font-weight: bold;
+  margin: 10px;
+}
+.text{
+  font-size: 20px;
+  margin: 10px;
+}
+.banner-btn{
+  padding: 15px 30px;
+  background-color: rgb(244, 61, 10);
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.banner-btn:hover{
+  background-color: blue;
+}
+.section-2{
+  margin-top: 25px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading-two{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.card-1{
+  width: 350px;
+  height: 250px;
+  padding: 20px;
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  margin-top: 40px;
+  transition: .8ms;
+}
+.gym-icon{
+  width: 100px;
+}
+.card-1:hover{
+  border: 2px solid orangered;
+  margin-top: -20px;
+  transition: .8ms;
+}
+.about-us{
+  font-size: 40px;
+  text-align: center;
+  margin: 100px;
+}
+.about-container{
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.about-left{
+  width: 50%;
+
+}
+.about-right{
+  width: 50%;
+}
+.about-description h1{
+  text-align: start;
+}
+.about-description p{
+  text-align: start;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.about-description ul{
+  margin-bottom: 20px;
+}
+.workout-image img{
+  width: 45%;
+  height: 50%;
+  transform: skew(-10deg);
+}
+.workout-container{
+  width: 650px;
+  height: 180px;
+  display: flex;
+  background-image: url(./shape/Group_33094_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  border-radius: 15px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.workout-title{
+  color: white;
+}
+#exeption{
+  background-color: white;
+  color: black;
+  border: none;
+}
+#exeption:hover{
+  background-color: blue;
+}
+footer{
+  width: 100%;
+  height: 220px;
+  margin-top: 70px;
+  text-align: center;
+}
+footer hr{
+  width: 90%;
+  margin-left: 75px;
+  margin-bottom: 30px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  margin: 10px;
+}
+footer a:hover{
+  color: red;
+  text-decoration: underline;
+}
+footer p{
+  padding: 12px;
+}
+span{
+  color: orangered;
+}
